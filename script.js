@@ -52,7 +52,7 @@ function yesButtonListener() {
 function noButtonListener() {
   if (count < 5) {
     gifMain.src = 'https://media.giphy.com/media/hbOgjMOUfLdWV2Ty1j/giphy.gif';
-    questionMain.innerHTML = "You don't love me?";
+    questionMain.innerHTML = "You love me, don't you?";
   } else if (count >= 5 && count < 10) {
     gifMain.src = 'https://media.giphy.com/media/QuCslOrnS649PSCnn7/giphy.gif';
     questionMain.innerHTML = 'Stop playing with me! Do you love me or not?!';
